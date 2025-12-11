@@ -71,7 +71,7 @@ public with sharing class CaseTriggerHandler {
             List<String> resolutionStepsStr = asStringList(resolutionSteps);
             List<String> keywordsStr = asStringList(keywords);
 
-            System.debug(LoggingLevel.INFO,
+            System.debug(LoggingLevel.INFO, 
                 'OpenAI analysis for Case ' + caseRecord.Id + ': '
                 + 'priority=' + priority
                 + ', severity=' + severity
